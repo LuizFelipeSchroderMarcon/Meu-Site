@@ -9,7 +9,18 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #0f0909 16.62%, #4b84b9 85.61%);
+  background: linear-gradient(68.15deg, #000000 16.62%, #4b84b9 85.61%);
+}
+.bodySobre{
+  font-size: 100%;
+  background-image: linear-gradient(270deg, #ffc600 0, #efcb00 6.25%, #dace00 12.5%, #c1cd00 18.75%, #a7cb00 25%, #8ac50f 31.25%,
+   #6cbd22 37.5%, #49b22e 43.75%, #17a537 50%, #00973e 56.25%,
+   #008b44 62.5%, #00814a 68.75%, #007950 75%, #007257 81.25%, #006d5e 87.5%, #006966 93.75%, #006870 100%);
+}
+.bodyFormacao{
+  font-size: 100%;
+  background-image: radial-gradient(circle at 50% -20.71%, #cca210 0, #d59705 8.33%, #dc8b01 16.67%, #e27d04 25%, #e76d0c 33.33%, 
+  #ea5a16 41.67%, #ec431f 50%, #ec2128 58.33%, #ec0033 66.67%, #ea003f 75%, #e7004c 83.33%, #e2005a 91.67%, #db0069 100%);
 }
 .Whatsapp{
   background: transparent;
@@ -56,6 +67,7 @@ border-radius: 4px;
   border-top: 0.4px solid #FFF2E7;
 }
 
+
 .conteudo-principal {
   display: flex;
   flex-direction: row;
@@ -84,7 +96,7 @@ border-radius: 4px;
 }
 
 .conteudo-principal-escrito-botao {
-  background-color: #ECD6C4;
+  background-color: #eccac4;
   width: 180px;
   height: 60px;
   border: none;
@@ -94,6 +106,8 @@ border-radius: 4px;
   font-weight: 400;
   font-size: 24px;
   color: #2F2325;
+  padding-left: 45px;
+  padding-top: 10px;
 }
 
 .conteudo-principal-escrito-botao:hover {
